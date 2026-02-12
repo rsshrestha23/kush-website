@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import clientPromise from '../../../../../lib/mongodb';
-import { verifyToken, createSlug } from '../../../../../lib/auth';
+import clientPromise from '../../../../lib/mongodb';
+import { verifyToken, createSlug } from '../../../../lib/auth';
 import { ObjectId } from 'mongodb';
 
 // GET - Fetch single blog by ID or slug

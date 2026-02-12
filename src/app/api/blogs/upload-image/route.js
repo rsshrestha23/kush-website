@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 import { existsSync } from 'fs';
-import { verifyToken } from '../../../../../lib/auth';
+import { verifyToken } from '../../../../lib/auth';
 import { cookies } from 'next/headers';
 
 export async function POST(request) {

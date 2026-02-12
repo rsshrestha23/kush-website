@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import clientPromise from '../../../../../../../lib/mongodb';
-import { verifyToken } from '../../../../../../../lib/auth';
+import clientPromise from '../../../../../lib/mongodb';
+import { verifyToken } from '../../../../../lib/auth';
 import { cookies } from 'next/headers';
 import { ObjectId } from 'mongodb';
 

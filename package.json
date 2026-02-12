@@ -17,7 +17,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.3.0",
     "motion": "^12.23.3",
-    "next": "15.3.5",
+    "next": "15.3.8",
     "next-auth": "^4.24.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

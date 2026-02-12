@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { IconPlus, IconEdit, IconTrash, IconEye } from "@tabler/icons-react";
-import clientPromise from "../../../../../../lib/mongodb";
-import BlogActions from "../../../../../../components/admin/BlogActions";
+import clientPromise from "../../../../lib/mongodb";
+import BlogActions from "../../../../components/admin/BlogActions";
 
 async function getBlogs() {
   try {

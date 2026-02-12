@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import clientPromise from '../../../../../lib/mongodb';
-import { verifyPassword, generateToken } from '../../../../../lib/auth';
+import clientPromise from '../../../../lib/mongodb';
+import { verifyPassword, generateToken } from '../../../../lib/auth';
 
 export async function POST(request) {
   try {

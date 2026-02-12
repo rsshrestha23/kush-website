@@ -1,6 +1,6 @@
 import { IconArticle, IconEye, IconEdit, IconTrash } from "@tabler/icons-react";
 import Link from "next/link";
-import clientPromise from "../../../../../../lib/mongodb";
+import clientPromise from "../../../lib/mongodb";
 
 async function getBlogStats() {
   try {
